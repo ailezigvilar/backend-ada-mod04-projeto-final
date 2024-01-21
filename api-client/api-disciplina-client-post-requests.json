@@ -1,0 +1,162 @@
+[
+  {
+    "nome": "Introdução a Engenharia de Computação",
+    "ementa": "Visão geral da computação. História da computação. A engenharia de computação na atualidade. O Curso de Engenharia de Computação na FURG. Representação da informação. Sistemas de numeração. Desenvolvimento de trabalhos acadêmicos diversos incluindo aplicações de pequeno e médio porte.",
+    "numeroCreditos": 4,
+    "cargaHorariaTotal": 72,
+    "tipo": "Anual",
+    "unidadeAcademica": "C3 - Centro de Ciências Computacionais"
+  },
+  {
+    "nome": "Algoritmos e Estruturas de Dados I",
+    "ementa": "Hardware e software. Noções básicas de arquitetura e organização de computadores. Formas de representação de algoritmos: pseudocódigo e fluxogramas. Constantes, variáveis e expressões. Tipos de dados: primitivos e do usuário. Estruturas de dados básicas: arranjos e registros. Entrada e saída. Estruturas de controle de fluxo. Operadores lógicos, relacionais e aritméticos. Modularização. Funções e procedimentos. Passagem de parâmetros. Manipulação de cadeias de caracteres. Recursão. Arquivos de registros e de texto. Ponteiros e alocação dinâmica de memória. Noções de tipos abstratos de dados.",
+    "numeroCreditos": 12,
+    "cargaHorariaTotal": 216,
+    "tipo": "Anual",
+    "unidadeAcademica": "C3 - Centro de Ciências Computacionais"
+  },
+  {
+    "nome": "Matemática Discreta",
+    "ementa": "Discreto vs. contínuo. Papel das estruturas discretas em computação.  Funções.  Relações.  Conjuntos. Provas e mecanismos de provas formais: construção, contradição, indução. Definições recursivas. Lógica proposicional. Lógica de predicados. Álgebra booleana. Análise combinatória básica. Grafos e árvores.",
+    "numeroCreditos": 6,
+    "cargaHorariaTotal": 108,
+    "tipo": "Anual",
+    "unidadeAcademica": "C3 - Centro de Ciências Computacionais"
+  },
+  {
+    "nome": "Computação Científica",
+    "ementa": "Ainda não foi informada ementa para esta disciplina.",
+    "numeroCreditos": 4,
+    "cargaHorariaTotal": 72,
+    "tipo": "Anual",
+    "unidadeAcademica": "C3 - Centro de Ciências Computacionais"
+  },
+  {
+    "nome": "Arquitetura e Organização de Computadores",
+    "ementa": "Ainda não foi informada ementa para esta disciplina.",
+    "numeroCreditos": 8,
+    "cargaHorariaTotal": 144,
+    "tipo": "Anual",
+    "unidadeAcademica": "C3 - Centro de Ciências Computacionais"
+  },
+  {
+    "nome": "Linguagens Formais e Teoria da Computação",
+    "ementa": "Linguagens. Autômatos finitos. Autômatos com pilha. Gramáticas. Formas normais. Hierarquia de Chomsky. Gramáticas LL(k) e LR(k). Classes de programas e máquinas simples. Equivalência e correção de programas. Computabilidade: máquina de Turing e variantes. Tese de Church-Turing. Decidibilidade. Problema da parada. Redução de problemas.",
+    "numeroCreditos": 6,
+    "cargaHorariaTotal": 108,
+    "tipo": "Anual",
+    "unidadeAcademica": "C3 - Centro de Ciências Computacionais"
+  },
+  {
+    "nome": "Algoritmos e Estruturas de Dados II",
+    "ementa": "Abstração. Tipos abstratos de dados. Recursão. Listas. Pilhas. Filas. Tabelas de dispersão. Árvores. Noções formais de algoritmos. Notação assintótica. Análise de custo: tempo e espaço. Solução de recorrências. Teorema Mestre. Árvores Binárias de Pesquisa. Grafos: representação, busca, árvore geradora mínima e menores caminhos. Pesquisa e ordenação. Técnicas para construção de algoritmos: divisão e conquista, algoritmos gulosos, programação dinâmica, backtracking. Algoritmos de busca de aproximação. Teoria da complexidade: classes de problemas.",
+    "numeroCreditos": 12,
+    "cargaHorariaTotal": 216,
+    "tipo": "Anual",
+    "unidadeAcademica": "C3 - Centro de Ciências Computacionais"
+  },
+  {
+    "nome": "Projeto e Desenvolvimento de Software I",
+    "ementa": "Interfaces e arquiteturas de SGBD. Independência de dados. Modelagem de dados. Integridade. Linguagens de manipulação e consulta. Projeto de banco de dados. Modelagem de sistemas de informação. Conectividade com banco de dados.",
+    "numeroCreditos": 8,
+    "cargaHorariaTotal": 144,
+    "tipo": "Anual",
+    "unidadeAcademica": "C3 - Centro de Ciências Computacionais"
+  },
+  {
+    "nome": "Sistemas Operacionais",
+    "ementa": "Fundamentos e estrutura dos sistemas operacionais. Gerenciamento de processos: processos, threads, sincronização, escalonamento e impasses. Gerenciamento de memória: memória principal e virtual. Gerenciamento do armazenamento: sistemas de arquivos e sistemas de entrada e saída. Segurança de sistemas operacionais.",
+    "numeroCreditos": 8,
+    "cargaHorariaTotal": 144,
+    "tipo": "Anual",
+    "unidadeAcademica": "C3 - Centro de Ciências Computacionais"
+  },
+  {
+    "nome": "Sistemas Digitais",
+    "ementa": "Famílias lógicas. Circuitos combinacionais. Circuitos seqüenciais. Projeto e síntese de\r\ncircuitos digitais. Dispositivos lógicos programáveis: FPGA, CPLD, PLA.\r\nMicrocontroladores. Introdução a linguagens de descrição de hardware.",
+    "numeroCreditos": 8,
+    "cargaHorariaTotal": 144,
+    "tipo": "Anual",
+    "unidadeAcademica": "C3 - Centro de Ciências Computacionais"
+  },
+  {
+    "nome": "Circuitos Elétricos e Eletrônica",
+    "ementa": "Análise de circuitos DC e transitórios. Análise de circuitos A C. Semicondutores. Diodos e\r\naplicações. Transistores e aplicações. Amplificadores operacionais. Conversores AD/DA.",
+    "numeroCreditos": 8,
+    "cargaHorariaTotal": 144,
+    "tipo": "Anual",
+    "unidadeAcademica": "C3 - Centro de Ciências Computacionais"
+  },
+  {
+    "nome": "Cálculo Numérico Computacional",
+    "ementa": "Introdução; solução de equações polinomiais, algébricas e transcendentes. Sistemas de equações lineares. Interpolação. Ajuste de curvas. Integração numérica. Solução numérica de equações diferenciais ordinárias.",
+    "numeroCreditos": 4,
+    "cargaHorariaTotal": 72,
+    "tipo": "Semestral",
+    "unidadeAcademica": "IMEF - Instituto de Matemática, Estatística e Física"
+  },
+  {
+    "nome": "Linguagens de Programação",
+    "ementa": "Classes e gerações de linguagens. Compilação, interpretação e montagem. Qualidades de linguagens e o desenvolvimento de software. Alcance e amarração. Passagem de \r\nparâmetros. Ponteiros. Classes de  memória.  Sistemas  de  Tipos.  Paradigmas  de  programação:  imperativo,  funcional,  lógico  e  orientado  a objeto.",
+    "numeroCreditos": 4,
+    "cargaHorariaTotal": 72,
+    "tipo": "Semestral",
+    "unidadeAcademica": "C3 - Centro de Ciências Computacionais"
+  },
+  {
+    "nome": "Redes de Computadores",
+    "ementa": "Fundamentos de redes de computadores. Modelos de referência e suas camadas. Protocolos. Segurança de redes. Gerenciamento de redes.",
+    "numeroCreditos": 4,
+    "cargaHorariaTotal": 72,
+    "tipo": "Semestral",
+    "unidadeAcademica": "C3 - Centro de Ciências Computacionais"
+  },
+  {
+    "nome": "Compiladores",
+    "ementa": "Análise léxica. Análise sintática. Tradução dirigida por sintaxe. Geração de código intermediário. Ambientes de execução. Geração de código. Otimização de código.",
+    "numeroCreditos": 4,
+    "cargaHorariaTotal": 72,
+    "tipo": "Semestral",
+    "unidadeAcademica": "C3 - Centro de Ciências Computacionais"
+  },
+  {
+    "nome": "Sistemas Heterogêneos para Computação",
+    "ementa": "Ainda não foi informada ementa para esta disciplina.",
+    "numeroCreditos": 6,
+    "cargaHorariaTotal": 108,
+    "tipo": "Anual",
+    "unidadeAcademica": "C3 - Centro de Ciências Computacionais"
+  },
+  {
+    "nome": "Sistemas Distribuídos",
+    "ementa": "Fundamentos de sistemas distribuídos. Modelos de computação distribuída. Comunicação. Nomeação. Sincronização. Replicação. Consistência. Transações. Tolerância a falhas em sistemas distribuídos. Segurança de sistemas distribuídos.",
+    "numeroCreditos": 8,
+    "cargaHorariaTotal": 144,
+    "tipo": "Anual",
+    "unidadeAcademica": "C3 - Centro de Ciências Computacionais"
+  },
+  {
+    "nome": "Projeto e Desenvolvimento de Software II",
+    "ementa": "Gerenciamento de projetos de software. Engenharia de requisitos. Metodologias de desenvolvimento de software. Projeto de software: princípios, paradigmas e padrões. Validação e verificação de sistemas: métodos formais e teste de software.",
+    "numeroCreditos": 6,
+    "cargaHorariaTotal": 108,
+    "tipo": "Anual",
+    "unidadeAcademica": "C3 - Centro de Ciências Computacionais"
+  },
+  {
+    "nome": "Sistemas Gráficos",
+    "ementa": "Processamento de sinais e imagens: introdução e conceitos. Sinais e sistemas contínuos e\r\ndiscretos. Representação de sinais no domínio do tempo e da freqüência. Transformada\r\ndiscreta de Fourier. Transformada rápida de Fourier. Filtros digitais. Convolução. Imagem\r\ndigital: formatos, estatística e descrição da imagem. Teoria das cores. Transformadas de\r\nimagens. Realce. Filtragem e restauração. Introdução à computação gráfica. Dispositivos\r\ngráficos. Transformações geométricas 2D e 3D. Transformações para visualização. Câmera\r\nvitual. Rasterização, recorte e seleção. Iluminação e textura. Noções de animação.\r\nIntrodução à realidade virtual. Renderização em tempo real. Visão estereoscópica.\r\nHardware para realidade virtual. Realidade aumentada. Realidade virtual colaborativa e\r\nmultimídia.",
+    "numeroCreditos": 6,
+    "cargaHorariaTotal": 108,
+    "tipo": "Anual",
+    "unidadeAcademica": "C3 - Centro de Ciências Computacionais"
+  },
+  {
+    "nome": "Sistemas Inteligentes",
+    "ementa": "Conceituação e histórico. Áreas de estudo da IA. Métodos de busca. Representação do conhecimento. Aplicações: jogos, sistemas especialistas.  Planejamento.  Redes neurais.  Raciocínio e conhecimento sob incerteza. Inteligência artificial probabilística: inferência bayesiana, métodos estocásticos. Aprendizado de máquina. Computação evolutiva.  Agentes inteligentes. Estado da arte e perspectivas. Aspectos filosóficos.  ",
+    "numeroCreditos": 6,
+    "cargaHorariaTotal": 108,
+    "tipo": "Anual",
+    "unidadeAcademica": "C3 - Centro de Ciências Computacionais"
+  }
+]
