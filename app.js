@@ -1,26 +1,21 @@
 const express = require("express");
-const controller = require('./controller/disciplina-controller');
-const sequelize = require('./infra/sequelize')
+const database = require("./database/database");
+const routes = require("./routes/app.routes");
+const path = require("path");
+const bodyParser = require('body-parser');
 
 async function main() {
-
-  sequelize
-    // Para manter o histórico do banco entre inicializações
-    .sync()
-    //Para dropar as tabelas e subir de novo (quando mexer na estrutura das entities)
-    // .sync({ force: true })
-    .then(() => {
-      console.log('Arquivo de banco de dados importado corretamente!');
-  });
+  await database.sync();
 
   const app = express();
+
+  app.set('view engine', 'ejs');
+  app.set('views', './views');
+  app.use(express.static(path.join(__dirname, "public")));
+
   app.use(express.json());
 
-  app.get("/", controller.getAllDisciplinas);
-  app.get("/:id", controller.getDisciplinaById);
-  app.post("/", controller.createDisciplina);
-  app.put("/:id", controller.updateDisciplina);
-  app.delete("/:id", controller.deleteDisciplina);
+  routes(app);
 
   const PORT = 3000;
   app.listen(PORT, () =>

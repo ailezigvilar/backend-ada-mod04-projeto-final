@@ -1,7 +1,7 @@
 const DataTypes = require('sequelize');
-const sequelize = require('../infra/sequelize')
+const sequelize = require('../database/database')
 
-const Disciplina = sequelize.define('disciplina', {
+const Disciplina = sequelize.define('disciplinas', {
   id: {
     type: DataTypes.INTEGER,
     autoIncrement: true,
@@ -20,7 +20,7 @@ const Disciplina = sequelize.define('disciplina', {
     type: DataTypes.TINYINT,
     allowNull: false
   },
-  numeroCreditos: {
+  cargaHoraria: {
     type: DataTypes.SMALLINT,
     allowNull: false
   },
@@ -29,6 +29,10 @@ const Disciplina = sequelize.define('disciplina', {
     allowNull: false
   },
   unidadeAcademica: {
+    type: DataTypes.STRING,
+    allowNull: true
+  },
+  caminhoImagem: {
     type: DataTypes.STRING,
     allowNull: true
   },

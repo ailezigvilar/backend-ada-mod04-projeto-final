@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar Disciplina</title>
+</head>
+<body>
+    <h1>Cadastrar Disciplina</h1>
+
+    <form action="/disciplinas/salvar" method="post" enctype="multipart/form-data">
+        <label for="caminhoImagem">Caminho da Imagem:</label>
+        <input type="file" name="caminhoImagem" required>
+        <br/>
+
+        <label for="ementa">Ementa:</label>
+        <textarea name="ementa" required></textarea>
+        <br/>
+
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" required>
+        <br/>
+
+        <label for="numeroCreditos">Número de Créditos:</label>
+        <input type="number" name="numeroCreditos" required>
+        <br/>
+
+        <label for="cargaHoraria">Carga Horária:</label>
+        <input type="number" name="cargaHoraria" required>
+        <br/>
+
+        <label for="tipo">Tipo:</label>
+        <select name="tipo" required>
+            <option value="Anual">Anual</option>
+            <option value="Semestral">Semestral</option>
+        </select>
+        <br/>
+
+        <label for="unidadeAcademica">Unidade Acadêmica:</label>
+        <input type="text" name="unidadeAcademica" required>
+        <br/>
+
+        <button type="submit">Salvar Disciplina</button>
+    </form>
+</body>
+</html>
